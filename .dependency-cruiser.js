@@ -194,7 +194,7 @@ module.exports = {
           'npm-peer'
         ]
       }
-    }
+    },
   ],
   options: {
 
@@ -374,7 +374,9 @@ module.exports = {
       "text": {
         "highlightFocused": true
       },
-    }
+    },
+
+    collapse: "^((app|components|lib)/[^/]+)",
   }
 };
 // generated: dependency-cruiser@16.3.10 on 2024-08-15T13:13:41.510Z
